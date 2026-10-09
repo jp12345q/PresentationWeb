@@ -15,7 +15,6 @@ window.TAO_SLIDES = [
         <div class="cover-topline"><span class="diamond"></span> PAG-UNAWA SA BANAL NA MISYON <span class="cover-topline-rule"></span></div>
         <h1>Ang Kautusan<br>ng <em>Langit</em> <span class="cover-hairline">at ang</span><br>Kasaysayan sa<br>Pagpapalaganap<br>ng <span class="hero-tao">“TAO”</span></h1>
         <p>Isang paglalakbay sa mga patriarka, yugto ng kasaysayan, at pagpapamana ng Banal na Misyon.</p>
-        <div class="cover-bottom-meta"><span>15 MAIIKLING SLIDE</span><span class="meta-dot"></span><span>6 PANGUNAHING BAHAGI</span></div>
       </div>
       <div class="cover-art" aria-hidden="true">
         <div class="cover-disc disc-outer"></div><div class="cover-disc disc-mid"></div><div class="cover-disc disc-inner"></div>
