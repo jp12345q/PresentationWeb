@@ -2,56 +2,52 @@
 <html lang="fil">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#101c25">
-  <meta name="description" content="15-slide web presentation sa Filipino: Ang Kautusan ng Langit at ang Kasaysayan sa Pagpapalaganap ng TAO. Mga keyword, buod, at mahahalagang yugto.">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d2b">
+  <meta name="description" content="Isang 15-slide na presentasyong pang-web tungkol sa Kautusan ng Langit at kasaysayan sa pagpapalaganap ng TAO, batay sa Kabanata 7, pahina 115–131 ng aklat.">
+  <title>Ang Kautusan ng Langit at ang Pagpapalaganap ng TAO — 15 Slides</title>
   <link rel="stylesheet" href="styles.css">
-  <title>Ang Kautusan ng Langit at Kasaysayan ng TAO | Presentation</title>
   <script src="slides.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
-  <div class="site-shell">
-    <header class="topbar" aria-label="Presentation toolbar">
-      <div class="brand">
-        <span class="brand-mark" aria-hidden="true">道</span>
-        <span class="brand-text"><strong>ANG LANDAS NG TAO</strong><small>KASAYSAYAN <span class="brand-dot">•</span> PAGPAPALAGANAP</small></span>
-      </div>
-      <div class="topbar-center" aria-hidden="true">15 SLIDES</div>
-      <div class="toolbar-actions">
-        <button class="tool-btn" id="overviewBtn" type="button" title="Tingnan ang lahat ng slide (O)" aria-label="Tingnan ang lahat ng slide"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Mga slide</span></button>
-        <button class="tool-btn" id="fullscreenBtn" type="button" title="Full screen (F)" aria-label="Full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg><span>Buong screen</span></button>
+  <div class="app" id="app">
+    <header class="topbar" aria-label="Pamahalaan ng presentasyon">
+      <div class="brand"><span class="brand-emblem" aria-hidden="true">道</span><div><strong>ANG LANDAS NG TAO</strong><small>Presentation • Kabanata 7</small></div></div>
+      <div class="topbar-actions">
+        <button id="overviewBtn" class="action-btn" title="Tingnan lahat ng slides (O)" aria-label="Tingnan lahat ng slides">▦ <span>Mga slide</span></button>
+        <button id="notesBtn" class="action-btn" title="Tala ng tagapagsalita (N)" aria-label="Tala ng tagapagsalita">▤ <span>Notes</span></button>
+        <button id="printBtn" class="action-btn" title="I-print o i-save bilang PDF (P)" aria-label="Print o PDF">⎙ <span>PDF</span></button>
+        <button id="fullscreenBtn" class="action-btn" title="Buong screen (F)" aria-label="Buong screen">⛶ <span>Fullscreen</span></button>
       </div>
     </header>
 
-    <main class="main-wrap">
-      <div id="screen-reader-announcement" class="sr-only" role="status" aria-live="polite"></div>
-      <section class="deck" id="deck" aria-label="15-slide presentation">
-        <div class="deck-texture" aria-hidden="true"></div>
-        <div class="slides-host" id="slidesHost"></div>
-      </section>
+    <main class="stage" id="stage" aria-label="15-slide presentation">
+      <div class="deck" id="deck" aria-live="polite"></div>
     </main>
 
-    <footer class="controlbar">
-      <div class="pagination-info"><strong id="slideCounter">01 <span>/ 15</span></strong><small id="sectionName">PAMBUNGAD</small></div>
-      <div class="progress-area">
-        <div id="progressTrack" class="progress-track" aria-label="Progress ng presentation"></div>
-        <div class="progress-meta"><span id="pageSource">ANG LANDAS NG TAO</span><span class="keys-hint">← → MAGLIPAT NG SLIDE <span class="key-sep">·</span> F FULLSCREEN</span></div>
-      </div>
-      <div class="nav-actions">
-        <button id="prevBtn" class="nav-btn" type="button" title="Nakaraang slide (←)" aria-label="Nakaraang slide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button>
-        <button id="nextBtn" class="nav-btn nav-btn-primary" type="button" title="Susunod na slide (→)" aria-label="Susunod na slide"><span>Susunod</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
-      </div>
+    <footer class="toolbar" aria-label="Navigasyon ng slides">
+      <div class="toolbar-left"><span class="key-hint">←</span><span class="key-hint">→</span><span class="hint-text">Gamitin ang arrow keys</span></div>
+      <div class="toolbar-middle"><button id="previousBtn" class="nav-btn" title="Nakaraang slide (←)" aria-label="Nakaraang slide">←</button><button id="nextBtn" class="nav-btn nav-btn-primary" title="Susunod na slide (→)" aria-label="Susunod na slide">→</button><span id="slideCount" class="slide-count" aria-live="off">01 / 15</span></div>
+      <div class="toolbar-right"><span id="sectionName" class="section-name">Panimula</span></div>
+      <div id="progressTrack" class="progress-track" role="progressbar" aria-label="Progreso ng presentasyon" aria-valuemin="1" aria-valuemax="15" aria-valuenow="1"><div id="progressFill" class="progress-fill"></div></div>
     </footer>
-  </div>
 
-  <dialog class="overview-dialog" id="overviewDialog" aria-labelledby="overviewTitle">
-    <div class="overview-panel">
-      <div class="overview-head"><div><span class="overline">NAVIGATOR</span><h2 id="overviewTitle">Lahat ng 15 slide</h2><p>Pumili ng slide na bubuksan.</p></div><button type="button" id="overviewClose" class="close-btn" aria-label="Isara ang listahan">×</button></div>
-      <div class="overview-grid" id="overviewGrid"></div>
-      <div class="overview-foot"><span>Shortcut: <kbd>O</kbd> buksan/isara · <kbd>Esc</kbd> isara</span><button type="button" id="printBtn">I-print / Save as PDF ↗</button></div>
+    <div class="overlay" id="overviewOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="overviewTitle">
+      <div class="overlay-panel overview-panel">
+        <div class="panel-heading"><div><small>LAHAT NG SLIDES</small><h2 id="overviewTitle">Pumili ng slide</h2></div><button type="button" class="close-btn" id="closeOverview" aria-label="Isara">×</button></div>
+        <div id="overviewGrid" class="overview-grid"></div>
+      </div>
     </div>
-  </dialog>
+
+    <div class="overlay" id="notesOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="notesTitle">
+      <div class="overlay-panel notes-panel">
+        <div class="panel-heading"><div><small>GABAY SA PAGPAPALIWANAG</small><h2 id="notesTitle">Speaker notes</h2></div><button type="button" class="close-btn" id="closeNotes" aria-label="Isara">×</button></div>
+        <div id="notesContent" class="notes-content"></div>
+        <div class="notes-tip">Paalala: Mga buod at sariling pananalita ang nasa slides; ang mga espirituwal na pahayag ay inilalahad bilang mga turo ng aklat.</div>
+      </div>
+    </div>
+  </div>
+  <noscript><div class="noscript">Paganahin ang JavaScript sa browser upang makita ang 15-slide na presentasyon.</div></noscript>
 </body>
 </html>

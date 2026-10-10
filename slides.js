@@ -1,191 +1,133 @@
-/*
- * 15-slide presentation tungkol sa Kautusan ng Langit at pagpapalaganap ng TAO.
- * Maikli ang bawat slide: mahahalagang salita, buod, at gabay sa pagsasalita.
- * Ang mga espirituwal na salaysay ay inilalarawan ayon sa tradisyong ito.
- */
+// Mga buod na hango sa Kabanata 7, pahina 115–131 ng ibinigay na aklat.
+// Ang mga salaysay tungkol sa Banal na Misyon at mga patriarka ay mga tradisyonal na aral ng aklat.
 window.TAO_SLIDES = [
   {
-    section: 'Pambungad', phase: 'SIMULA', tag: 'PANIMULANG PAKSA', theme: 'night', layout: 'cover',
-    title: 'Ang Kautusan ng Langit at ang Kasaysayan sa Pagpapalaganap ng “TAO”',
-    notes: 'Ipakilala ang paksa: ano ang Kautusan ng Langit, paano naipamana ang TAO, at bakit mahalaga ang kasaysayan nito. Ito ang mga pangunahing paksa sa pagtalakay.',
-    keywords: ['Kautusan ng Langit', 'Pagpapamana', 'TAO'],
-    summary: 'Pag-unawa sa Banal na Misyon at sa kasaysayan ng pagpapamana ng TAO.',
-    body: `<div class="cover-main">
-      <div class="cover-copy">
-        <div class="cover-topline"><span class="diamond"></span> PAG-UNAWA SA BANAL NA MISYON <span class="cover-topline-rule"></span></div>
-        <h1>Ang Kautusan<br>ng <em>Langit</em> <span class="cover-hairline">at ang</span><br>Kasaysayan sa<br>Pagpapalaganap<br>ng <span class="hero-tao">“TAO”</span></h1>
-        <p>Isang paglalakbay sa mga patriarka, yugto ng kasaysayan, at pagpapamana ng Banal na Misyon.</p>
+    section: 'I · Panimula', title: 'Ang Kautusan ng Langit at ang Kasaysayan sa Pagpapalaganap ng “TAO”', pages: '115–131', tone: 'night', type: 'hero',
+    body: `
+      <div class="hero-copy">
+        <span class="overline"><i></i> KABANATA 7 <span class="overline-divider">/</span> 15-SLIDE PRESENTASYON</span>
+        <h1>Ang Kautusan <em>ng Langit</em> at ang Kasaysayan sa Pagpapalaganap ng <span class="accent-word">“TAO”</span></h1>
+        <div class="hero-rule"></div>
+        <p>Ang Banal na Misyon, ang pagpapamana ng TAO, at ang mahahalagang yugto sa kasaysayan nito.</p>
+        <span class="hero-source">Batay sa aklat • Kabanata 7 • pp. 115–131</span>
       </div>
-      <div class="cover-art" aria-hidden="true">
-        <div class="cover-disc disc-outer"></div><div class="cover-disc disc-mid"></div><div class="cover-disc disc-inner"></div>
-        <div class="cover-chinese">道</div><div class="cover-ring-label">ISANG LANDAS · ISANG BANAL NA MISYON</div>
-        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
-        <span class="cover-star cover-star-1">✧</span><span class="cover-star cover-star-2">✦</span><span class="cover-star cover-star-3">✦</span>
-      </div>
-    </div>`
+      <div class="hero-art" aria-hidden="true"><span class="hero-art-top">天 命</span><div class="hero-disc"><span>道</span></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="horizon horizon-a"></div><div class="horizon horizon-b"></div><div class="horizon horizon-c"></div><span class="hero-art-caption">Ang Landas • Banal na Misyon</span></div>`,
+    notes: 'Ito ang pambungad sa kabanata. Ang presentasyon ay isang maikling buod ng orihinal na aklat, mula pahina 115 hanggang 131. Ipaliwanag na ang TAO dito ay espirituwal na Landas ayon sa aral ng aklat, at hindi karaniwang salitang "tao". Hindi ito isang akademikong pagpapatunay sa mga tradisyonal na salaysay ng patriarka.'
   },
   {
-    section: 'I · Panimula', phase: 'UNANG BAHAGI', tag: 'I. PANIMULA', theme: 'paper', layout: 'origin',
-    title: 'Saan nagmumula ang buhay?', lead: 'Tatlong pangunahing kaisipan ng panimula',
-    notes: 'Ang pangunahing turo ay ang espiritu ang ugat ng buhay, ang Langit ang pinagmulan nito, at ang Banal na Misyon ay upang maipaliwanag ang TAO at mapangalagaan ang likas na puso.',
-    keywords: ['Langit', 'Espiritu', 'Likas na Puso'],
-    summary: 'Ang espiritu ang ugat ng buhay; sa Langit iniuugnay ang pinagmulan nito at ang Banal na Misyon.',
-    body: `<div class="origin-flow">
-      <div class="origin-feature"><div class="origin-glyph">天</div><span class="card-eyebrow">PINAGMULAN</span><h3>Langit</h3><p>Pinagmumulan ng espiritu.</p></div>
-      <div class="flow-link"><span></span><b>→</b><span></span></div>
-      <div class="origin-feature"><div class="origin-glyph">心</div><span class="card-eyebrow">UGAT NG BUHAY</span><h3>Espiritu</h3><p>Ugnay sa likas na puso.</p></div>
-      <div class="flow-link"><span></span><b>→</b><span></span></div>
-      <div class="origin-feature"><div class="origin-glyph">道</div><span class="card-eyebrow">BANAL NA MISYON</span><h3>TAO</h3><p>Pagkilala at pagpapanatili ng aral.</p></div>
-    </div><div class="slide-insight"><span class="insight-icon">✦</span><span>Diwa: Ang pagpapalaganap ng TAO ay nakaugnay sa <strong>Langit, espiritu, at likas na puso.</strong></span></div>`
+    section: 'I · Panimula', title: 'Bakit mahalagang pag-aralan ang TAO?', pages: '115', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">I · PANIMULA</span><h2>Ang pinagmulan ng <em>espiritu at buhay</em></h2><p class="lead">Ayon sa aklat, ang <strong>Langit ang pinagmulan ng espiritu</strong>; ang pagpapalaganap ng TAO ay paggabay sa likas na puso ng tao.</p>
+      <div class="feature-grid two-features"><div class="feature-card"><h3>Pangunahing diwa</h3><p>Ipinapakita ng aklat na ang buhay at espiritu ay may ugnayan sa Langit. Dahil dito, ang TAO ay hindi lamang aral kundi gabay pabalik sa wastong puso.</p></div><div class="feature-card"><h3>Bakit ito mahalaga?</h3><p>Ang Banal na Misyon ay ipinapamana upang mapanatili ang ugnayan ng tao sa Langit at maingat na maipasa ang aral sa susunod na salinlahi.</p></div></div><div class="small-callout"><span class="callout-mark">✦</span><p>Mahalagang ideya: ang tao ay hinihikayat na pangalagaan ang likas na puso at kilalanin ang Langit bilang pinagmulan.</p></div>`,
+    notes: 'Ayon sa pahina 115, ang pagpapalaganap ng TAO ay pagpapaliwanag sa espiritu bilang ugat ng buhay at sa Langit bilang pinagmulan ng espiritu. Idinagdag sa slide ang dalawang maikling buod: una, ang pangunahing diwa ng ugnayan ng buhay at Langit; ikalawa, kung bakit mahalaga ang Banal na Misyon sa pagpapatuloy ng aral.'
   },
   {
-    section: 'II · Kautusan ng Langit', phase: 'IKALAWANG BAHAGI', tag: 'II. KAHULUGAN', theme: 'night', layout: 'three',
-    title: 'Ano ang Kautusan ng Langit?', lead: 'Tatlong sangkap ng Kautusan ng Langit',
-    notes: 'Tatlong pangunahing bahagi: A. Ang Kagustuhan ng Langit; B. Ang tunay na kalikasan — espiritu ng mga nilalang; C. Ang Banal na Misyon sa pagpapatupad ng TAO.',
-    keywords: ['Kagustuhan ng Langit', 'Tunay na Kalikasan', 'Banal na Misyon'],
-    summary: 'Ang Kautusan ng Langit ay kaugnay ng kagustuhan ng Langit, espiritu ng nilalang at pagpapamana ng TAO.',
-    body: `<div class="three-cards">
-      <div class="concept-card"><span class="concept-no">01 / A</span><div class="concept-symbol">☼</div><h3>Kagustuhan<br>ng Langit</h3><p>Kaayusan at kalooban ng Langit.</p></div>
-      <div class="concept-card"><span class="concept-no">02 / B</span><div class="concept-symbol">心</div><h3>Tunay na<br>Kalikasan</h3><p>Espiritu ng mga nilalang.</p></div>
-      <div class="concept-card"><span class="concept-no">03 / C</span><div class="concept-symbol">道</div><h3>Banal na<br>Misyon</h3><p>Pagpapatupad at pagpapamana ng TAO.</p></div>
-    </div>`
+    section: 'II · Kautusan ng Langit', title: 'Ano ang Kautusan ng Langit?', pages: '115–116', tone: 'night', type: 'standard',
+    body: `
+      <div class="two-col two-col-wide">
+        <div><span class="overline">II · KAHULUGAN</span><h2>Ano ang <em>Kautusan ng Langit?</em></h2><p class="lead">Sa aklat, ito ang <strong>kagustuhan at Banal na Misyon ng Langit</strong> na kaugnay ng pagpapalaganap ng TAO.</p><p class="sublead">Ipinapaliwanag nito kung bakit ipinapasa ang aral at kung bakit may pananagutan ang mga tumatanggap nito.</p></div>
+        <div class="authority-visual"><div class="authority-ring"><span class="authority-cn">天命</span><strong>KAUTUSAN<br>NG LANGIT</strong></div><div class="authority-tags"><span>Kagustuhan</span><span>Banal na Misyon</span><span>Pananagutan</span></div></div>
+      </div>`,
+    notes: 'Ipaliwanag ang kaibahan ng karaniwang kahulugan ng kautusan at ang pakahulugan sa aklat: ang Kagustuhan ng Langit. Sa pp. 115–116, ipinapakita ang Langit bilang pinagmumulan ng kaayusan at ang pagpapalaganap ng TAO bilang gawain na may Banal na Misyon. Gumamit ng "ayon sa aklat" kapag nagpapaliwanag.'
   },
   {
-    section: 'II · Kautusan ng Langit', phase: 'IKALAWANG BAHAGI', tag: 'II. KAHULUGAN', theme: 'jade', layout: 'responsibility',
-    title: 'Misyon, hindi lamang awtoridad', lead: 'Mga susi sa pag-unawa sa Kautusan ng Langit',
-    notes: 'Mahalaga ang pagkilala sa kagustuhan ng Langit at sa sariling espirituwal na kalikasan; bahagi ng Banal na Misyon ang paggabay at paggawa ng kabutihan.',
-    keywords: ['Pananagutan', 'Likas na Puso', 'Paggabay'],
-    summary: 'Ang Banal na Misyon ay pananagutang kilalanin ang Langit, linangin ang likas na puso at gumabay sa kapuwa.',
-    body: `<div class="responsibility-grid"><div class="big-idea"><span class="big-idea-overline">BUOD NG ARAL</span><div class="big-idea-title">Unawain.<br>Isabuhay.<br><em>Ipagpatuloy.</em></div><p>Ang pagpapamana ng TAO ay may kaakibat na pananagutan.</p></div>
-      <div class="responsibility-list"><div class="responsibility-item"><span>01</span><div><h3>Unawain ang Langit</h3><p>Pagkilala sa kagustuhan at itinakdang panahon.</p></div></div><div class="responsibility-item"><span>02</span><div><h3>Pangalagaan ang likas na puso</h3><p>Paglinang sa kalikasang espirituwal.</p></div></div><div class="responsibility-item"><span>03</span><div><h3>Tumupad sa Banal na Misyon</h3><p>Gabay at pagtulong sa mga nilalang.</p></div></div></div></div>`
+    section: 'II · Kautusan ng Langit', title: 'Kalikasan at Banal na Misyon', pages: '116–118', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">II · TATLONG MAHALAGANG IDEYA</span><h2>Ang espiritu, likas na puso at <em>Banal na Misyon</em></h2>
+      <div class="feature-grid feature-grid-three">
+        <div class="feature-card"><div class="feature-number">01</div><h3>Kagustuhan ng Langit</h3><p>Ang buhay at sansinukob ay inilalarawan bilang bahagi ng kaayusan ng Langit.</p></div>
+        <div class="feature-card"><div class="feature-number">02</div><h3>Tunay na Kalikasan</h3><p>Ang espiritu at likas na puso ay ipinagkaloob ng Langit, ayon sa aklat.</p></div>
+        <div class="feature-card"><div class="feature-number">03</div><h3>Banal na Misyon</h3><p>May tungkuling gabayan ang iba at ipagpatuloy ang pagpapalaganap ng TAO.</p></div>
+      </div><div class="bottom-message">Mula sa pagkilala sa Langit → tungo sa pagsasabuhay ng pananagutan.</div>`,
+    notes: 'Pinagsama rito ang tatlong pangunahing ideya ng seksyon II: (A) Kagustuhan ng Langit; (B) tunay na kalikasan o espiritu ng mga nilalang; at (C) Banal na Misyon sa pagpapatupad ng TAO. Ang aklat ay tumutukoy rin sa Doctrine of the Mean at sa pag-unawa sa likas na kalikasan ng tao.'
   },
   {
-    section: 'III · Kasaysayan', phase: 'IKATLONG BAHAGI', tag: 'III. KASAYSAYAN', theme: 'paper', layout: 'transmission',
-    title: 'Pagpapamana ng TAO', lead: 'Mga halimbawa ng pagpapamana sa kasaysayan',
-    notes: 'Kabilang sa mga halimbawa ang sinaunang mga turo at mga patriarka bilang halimbawa ng pagpapasa ng aral. Hindi ito ipinapakita rito bilang dokumentadong kronolohiyang sekular.',
-    keywords: ['Patriarka', 'Pagpapamana', 'Banal na Misyon'],
-    summary: 'Ang TAO ay ipinapasa sa mga patriarka at guro upang magpatuloy ang espirituwal na aral.',
-    body: `<div class="transmission-track">
-      <div class="transmission-point"><span class="track-count">01</span><span class="track-icon">文</span><h3>Confucius</h3><p>Likas na puso, katapatan, at wastong pag-uugali.</p></div>
-      <div class="transmission-connector">→</div>
-      <div class="transmission-point"><span class="track-count">02</span><span class="track-icon">佛</span><h3>Shakyamuni Buddha</h3><p>Espirituwal na pamana kay Maha Kashyapa.</p></div>
-      <div class="transmission-connector">→</div>
-      <div class="transmission-point"><span class="track-count">03</span><span class="track-icon">心</span><h3>Hong Ren at Hui Neng</h3><p>Pagpapatuloy at pag-iingat sa aral.</p></div>
-    </div><div class="slide-insight"><span class="insight-icon">✦</span><span>Pangunahing diwa: <strong>pagpapasa ng Banal na Misyon sa bawat salinlahi.</strong></span></div>`
+    section: 'III · Kasaysayan ng TAO', title: 'Kasaysayan ng Pagpapalaganap', pages: '118–119', tone: 'mist', type: 'standard',
+    body: `
+      <span class="overline">III · PAGPAPAMANA NG TAO</span><h2>Kasaysayan ng <em>pagpapalaganap</em></h2>
+      <p class="lead compact-lead">Inilalarawan ng aklat ang pagpapatuloy ng TAO sa pamamagitan ng <strong>Banal na Misyon</strong> at pagpapamana sa bawat salinlahi.</p>
+      <div class="transmission-flow"><div class="transmission-node"><span>天</span><strong>Langit</strong><small>Pinagmulan ng misyon</small></div><div class="flow-arrow">→</div><div class="transmission-node"><span>傳</span><strong>Mga Patriarka</strong><small>Tagapagpamana</small></div><div class="flow-arrow">→</div><div class="transmission-node"><span>道</span><strong>Sumunod na salinlahi</strong><small>Pagpapatuloy ng aral</small></div></div>
+      <p class="mini-summary">Diwa ng kabanata: ang pagpapalaganap ng TAO ay ipinapasa mula sa isang henerasyon hanggang sa susunod.</p>`,
+    notes: 'Batay sa pahina 118–119, iniuugnay ang TAO sa kabuuan ng sansinukob at sa likas na puso. Inilalarawan ang walang humpay na pagpapamana ng misyon mula sa isang henerasyon patungo sa susunod. Ang mga linya ng transmisyon ay inilalahad bilang tradisyonal na salaysay ng aklat.'
   },
   {
-    section: 'IV · Mga Pagitan', phase: 'IKAAPAT NA BAHAGI', tag: 'IV. PAGHAHATI NG KASAYSAYAN', theme: 'night', layout: 'number',
-    title: '64 na Patriarka', lead: 'Ang pagpapalaganap ayon sa Ba Gua / Eight Trigrams',
-    notes: 'Iniuugnay ang 64 na kombinasyon ng Ba Gua sa kabuuang 64 na patriarka: 18 sa unang transmisyon sa Tsina, 28 sa India, at 18 sa ikalawang transmisyon sa Tsina.',
-    keywords: ['Ba Gua', '18 + 28 + 18', '64 na Patriarka'],
-    summary: 'Ang tradisyon ng pagpapamana ay nahahati sa Tsina, India at muling Tsina: kabuuang 64 na patriarka.',
-    body: `<div class="patriarch-equation">
-      <div class="patriarch-number"><strong>18</strong><span>UNANG YUGTO<br>SA TSINA</span></div>
-      <div class="math-op">+</div>
-      <div class="patriarch-number"><strong>28</strong><span>PAGPAPAMANA<br>SA INDIA</span></div>
-      <div class="math-op">+</div>
-      <div class="patriarch-number"><strong>18</strong><span>IKALAWANG YUGTO<br>SA TSINA</span></div>
-      <div class="math-op math-equals">=</div>
-      <div class="patriarch-number total"><strong>64</strong><span>PATRIARKA</span></div>
-    </div><div class="bagua-explainer" role="note" aria-label="Ba Gua, Eight Trigrams: 8 pangunahing simbolo at 64 kombinasyon">
-      <span class="bagua-seal" aria-hidden="true">八卦</span>
-      <span class="bagua-explainer-copy"><strong>BA GUA / EIGHT TRIGRAMS</strong><small>8 TRIGRAMS &nbsp;·&nbsp; 64 KOMBINASYON</small></span>
-    </div>`
+    section: 'III · Kasaysayan ng TAO', title: 'Mga Halimbawa ng Pagpapamana', pages: '119–120', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">III · MGA HALIMBAWA SA AKLAT</span><h2>Mga gurong binanggit sa <em>pagpapamana ng TAO</em></h2>
+      <div class="lineage-grid">
+        <div class="lineage-card"><span class="lineage-num">01 · SINAUNANG TSINA</span><div class="lineage-path"><strong>Confucius</strong><span>→</span><strong>Tseng Shen</strong></div><p><strong>Kahalagahan:</strong> iniuugnay sa aklat sa paglinang ng sarili, pagpapanatili ng likas na puso, at pagsasabuhay ng mabuting asal.</p></div>
+        <div class="lineage-card"><span class="lineage-num">02 · INDIA</span><div class="lineage-path"><strong>Shakyamuni Buddha</strong><span>→</span><strong>Arya Maha Kashyapa</strong></div><p><strong>Kahalagahan:</strong> halimbawa ng malalim na pagpapasa ng espirituwal na pagkaunawa mula sa guro patungo sa disipulo.</p></div>
+        <div class="lineage-card"><span class="lineage-num">03 · MGA PATRIARKA</span><div class="lineage-path"><strong>Hong Ren</strong><span>→</span><strong>Hui Neng</strong></div><p><strong>Kahalagahan:</strong> ipinapakita ang pagpapatuloy ng transmisyon at ang diin sa tunay na puso sa susunod na salinlahi.</p></div>
+      </div><div class="bottom-message">Buod ng aklat: ang pagpapamana ng TAO ay nagpapatuloy sa pamamagitan ng mga gurong nag-iingat at nagpapasa ng aral.</div>`,
+    notes: 'Ang mga halimbawa ay nasa pp. 118–120. Pinalinaw sa slide ang kahalagahan ng bawat pares ng guro: Confucius at Tseng Shen para sa paglinang ng sarili; Shakyamuni Buddha at Maha Kashyapa para sa espirituwal na pagpapasa; at Hong Ren at Hui Neng para sa pagpapatuloy ng transmisyon at tunay na puso.'
   },
   {
-    section: 'IV · Mga Pagitan', phase: 'IKAAPAT NA BAHAGI', tag: 'IV. TATLONG YUGTO', theme: 'paper', layout: 'eras',
-    title: 'Tatlong Yugto ng Pagpapalaganap', lead: 'Ang pagkakahati sa Luntian, Pula, at Puti',
-    notes: 'Ipaliwanag ang Luntiang Yugto, Pulang Yugto, at Puting Yugto bilang tatlong yugto; pagkatapos ay ipakita ang pagbabago ng mga tumatanggap ng TAO mula sa mga hari, sa mga espirituwal na guro, hanggang sa karaniwang tahanan. Ang 10,800 taon ay bahagi ng paniniwalang inilalahad.',
-    keywords: ['Luntiang Yugto', 'Pulang Yugto', 'Puting Yugto'],
-    summary: 'Ang tatlong yugto ay nagpapakita ng pagbabago sa panahon at sa mga tumatanggap ng TAO.',
-    body: `<div class="eras-grid">
-       <div class="era-card era-green"><div class="era-sun"></div><span class="era-no">01</span><h3>Luntiang Yugto</h3><p>Unang panahon ng transmisyon.</p><span class="era-en">GREEN ERA</span></div>
-       <div class="era-card era-red"><div class="era-sun"></div><span class="era-no">02</span><h3>Pulang Yugto</h3><p>Pagpapatuloy sa mga guro at mag-aaral.</p><span class="era-en">RED ERA</span></div>
-       <div class="era-card era-white"><div class="era-sun"></div><span class="era-no">03</span><h3>Puting Yugto</h3><p>Malawakang pagpapalaganap; 10,800 taon ayon sa tradisyon.</p><span class="era-en">WHITE ERA</span></div>
-    </div><div class="era-journey"><span>MGA HARI</span><i>→</i><span>MGA GURO AT MONGHE</span><i>→</i><span>KARANIWANG TAHANAN</span></div>`
+    section: 'IV · Pagitan at Mga Yugto', title: '64 na Patriarka at Ba Gua', pages: '120–121', tone: 'night', type: 'standard',
+    body: `
+      <span class="overline">IV · PAGHAHATI AYON SA BA GUA</span><h2>Ang <em>64 na Patriarka</em></h2><p class="sublead">Sa tradisyonal na talaan ng aklat, ang bilang ay iniuugnay sa <strong>64 na kombinasyon ng Ba Gua (Eight Trigrams).</strong></p>
+      <div class="count-flow"><div class="count-block"><b>18</b><span>Unang yugto sa Tsina</span><small>Fu Xi → Mencius</small></div><span class="math-sign">+</span><div class="count-block"><b>28</b><span>Pagpapalaganap sa India</span><small>Shakyamuni → Bodhidharma</small></div><span class="math-sign">+</span><div class="count-block"><b>18</b><span>Ikalawang yugto sa Tsina</span><small>Bodhidharma → Amang at Inang Guro</small></div></div>
+      <div class="count-total"><span>=</span><strong>64</strong><span>na Patriarka · simbolikong ugnay sa Ba Gua</span></div>`,
+    notes: 'Sa pahina 120–121, hinahati ng aklat ang tradisyonal na pagpapamana ng TAO sa 18 patriarka ng unang yugto sa Tsina, 28 sa India at 18 sa ikalawang yugto sa Tsina. Sinasabing ang kabuuang 64 ay sumasagisag sa 64 na kombinasyon ng Ba Gua o Eight Trigrams. Sabihin nang malinaw na ito ay ang talaang ginagamit ng aklat.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-A. MGA PINUNO', theme: 'ochre', layout: 'leaders',
-    title: 'TAO sa mga hari at matataas na opisyal', lead: 'Ang unang anyo ng pagpapamana',
-    notes: 'Sa unang yugto ng pagpapalaganap ay nakaugnay sa mga sinaunang pinuno at mataas na opisyal. Kabilang sa mga pangalan ang Fu Xi, Shen Nong, Huang Di, Yao, at Shun.',
-    keywords: ['Fu Xi', 'Mga Hari', 'Birtud'],
-    summary: 'Sa unang panahon, ang TAO ay ipinapamana sa mga hari at matataas na opisyal.',
-    body: `<div class="leaders-layout"><div class="leaders-art" aria-hidden="true"><div class="sun-halo"></div><div class="palace-roof roof-1"></div><div class="palace-roof roof-2"></div><div class="palace-columns"><i></i><i></i><i></i><i></i></div><div class="palace-base"></div></div>
-      <div class="leaders-copy"><span class="card-eyebrow">MGA SINAUNANG PINUNO</span><div class="name-pills"><span>Fu Xi</span><span>Shen Nong</span><span>Huang Di</span><span>Yao</span><span>Shun</span></div><div class="leaders-message">Pamumunong may <strong>karunungan, birtud, at pananagutan</strong> sa bayan.</div></div></div>`
+    section: 'IV · Pagitan at Mga Yugto', title: 'Ang Tatlong Yugto', pages: '121', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">IV · PANAHON NG TATLONG YUGTO</span><h2>Luntian, Pula at <em>Puting Yugto</em></h2>
+      <div class="era-grid"><div class="era era-green"><div class="era-sun"><span>青</span></div><h3>Luntiang Yugto</h3><p>Fu Xi hanggang sa mga dinastiyang <strong>Shang at Zhou</strong>.</p><div class="era-label">UNANG YUGTO</div></div>
+      <div class="era era-red"><div class="era-sun"><span>紅</span></div><h3>Pulang Yugto</h3><p>Shang at Zhou hanggang sa paglipat ng <strong>ika-19 tungo sa ika-20 siglo</strong>.</p><div class="era-label">IKALAWANG YUGTO</div></div>
+      <div class="era era-white"><div class="era-sun"><span>白</span></div><h3>Puting Yugto</h3><p>Panahong inilalarawan ng aklat na aabot sa <strong>10,800 taon</strong>.</p><div class="era-label">IKATLONG YUGTO</div></div></div>
+      <p class="source-caveat">Mga yugto ayon sa tradisyon at paniniwalang nakasaad sa aklat.</p>`,
+    notes: 'Batay sa pahina 121, tatlo ang yugto ayon sa pagkakahati sa libro. Luntian: Fu Xi hanggang sa Shang at Zhou. Pula: mula sa Shang at Zhou, hanggang sa paglipat ng ika-19 sa ika-20 siglo. Puti: simula ng panahong iniuugnay sa ikawalong yugto ng Wei sa tradisyonal na pagkakahati, at inaasahang 10,800 taon. Ang ganitong tagal ay paniniwala sa aklat, hindi sukat na napatunayan.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-B. MGA GURO', theme: 'paper', layout: 'sages',
-    title: 'TAO sa mga pantas, monghe at mag-aaral', lead: 'Paglipat ng aral sa mga guro at espirituwal na nagsasanay',
-    notes: 'Sa ikalawang uri ng pagpapamana, binabanggit ang mga espirituwal na guro at mag-aaral na may mataas na birtud, kabilang sina Lao Tze, Confucius, at Shakyamuni Buddha.',
-    keywords: ['Lao Tze', 'Confucius', 'Shakyamuni'],
-    summary: 'Lumipat ang pagpapamana sa mga espirituwal na guro, monghe at mag-aaral na may mataas na birtud.',
-    body: `<div class="sage-cards">
-      <div class="sage-card"><span class="sage-icon">道</span><span class="card-eyebrow">TAOISMO</span><h3>Lao Tze</h3><p>Aral ng TAO at panloob na karunungan.</p></div>
-      <div class="sage-card"><span class="sage-icon">仁</span><span class="card-eyebrow">CONFUCIANISMO</span><h3>Confucius</h3><p>Birtud, katapatan, at likas na puso.</p></div>
-      <div class="sage-card"><span class="sage-icon">佛</span><span class="card-eyebrow">BUDISMO</span><h3>Shakyamuni</h3><p>Espirituwal na aral at pagpapasa ng pamana.</p></div>
-    </div>`
+    section: 'IV · Pagitan at Mga Yugto', title: 'Tatlong Paraan ng Pagpapamana', pages: '122', tone: 'mist', type: 'standard',
+    body: `
+      <span class="overline">IV · PAGBABAGO NG PARAAN NG PAGPAPAMANA</span><h2>Mula sa mga hari <em>hanggang sa tahanan</em></h2>
+      <div class="stages"><div class="stage-item"><span class="stage-index">01</span><div class="stage-icon">♛</div><div><h3>Mga hari at matataas na opisyal</h3><p>Fu Xi hanggang Zhou Gong</p></div></div><div class="stage-join">↓</div><div class="stage-item"><span class="stage-index">02</span><div class="stage-icon">✧</div><div><h3>Mga monghe at mag-aaral na may mataas na birtud</h3><p>Lao Tze hanggang Hong Ren</p></div></div><div class="stage-join">↓</div><div class="stage-item"><span class="stage-index">03</span><div class="stage-icon">⌂</div><div><h3>Mga simpleng mamamayan</h3><p>Hui Neng hanggang Amang Guro at Inang Guro</p></div></div></div>`,
+    notes: 'Batay sa pahina 122, may tatlong anyo o kalagayan ng mga tagatanggap at tagapagpamana. Una, mga hari at mataas na opisyal; ikalawa, mga monghe at mag-aaral na may mataas na birtud; ikatlo, mga simpleng mamamayan. Ito ang pagbabagong sinasabi ng aklat tungkol sa pagpapalaganap ng TAO.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-C AT V-D. INDIA / TSINA', theme: 'night', layout: 'journey',
-    title: 'Mula India, muling bumalik sa Tsina', lead: 'Pagpapamana mula India pabalik sa Tsina',
-    notes: 'Ayon sa tradisyonal na pagpapamana, ipinasa ni Shakyamuni Buddha ang aral kay Arya Maha Kashyapa. Si Bodhidharma ay ika-28 patriarka sa India at inilalarawang nagdala ng transmisyon pabalik sa Tsina. Kasama sa sumunod na linya si Hui Neng.',
-    keywords: ['India', 'Bodhidharma', 'Tsina'],
-    summary: 'Iniuugnay kay Bodhidharma ang paglipat ng pagpapamana mula sa India pabalik sa Tsina.',
-    body: `<div class="journey-board">
-      <div class="journey-side"><span class="journey-region">INDIA</span><div class="journey-big">28</div><span class="journey-small">MGA PATRIARKA</span><div class="journey-names">Shakyamuni <span>→</span> Maha Kashyapa</div></div>
-      <div class="journey-center"><div class="journey-line"></div><div class="journey-crossing">BODHIDHARMA <small>IKA-28 PATRIARKA SA INDIA</small></div><div class="journey-arrow">➜</div></div>
-      <div class="journey-side"><span class="journey-region">TSINA</span><div class="journey-big glyph-alt">禪</div><span class="journey-small">PAGBABALIK NG ARAL</span><div class="journey-names">Bodhidharma <span>→</span> Hui Neng</div></div>
-    </div>`
+    section: 'V · Pagpapalaganap ng TAO', title: 'Mga Hari, Guro at Mag-aaral', pages: '122–124', tone: 'night', type: 'standard',
+    body: `
+      <span class="overline">V · A AT B</span><h2>Ang unang mga <em>tagapagpamana</em></h2>
+      <div class="comparison"><div class="comparison-col"><div class="comparison-top"><span class="roman-mark">A</span><span>MGA HARI AT OPISYAL</span></div><h3>Mga sinaunang pinuno</h3><p>Nag-uumpisa ang tradisyonal na salaysay kina <strong>Fu Xi, Shen Nong at Xuan Yuan</strong>, at nagpapatuloy sa iba pang mga pinuno hanggang Zhou Gong.</p><span class="comparison-foot">Diin: mahusay na pamumuno at mabuting asal.</span></div><div class="comparison-divider"></div><div class="comparison-col"><div class="comparison-top"><span class="roman-mark">B</span><span>MGA MONGHE AT MAG-AARAL</span></div><h3>Mga gurong may birtud</h3><p>Binabanggit ang <strong>Lao Tze, Confucius at Shakyamuni Buddha</strong> bilang mahahalagang guro sa pagpapalaganap ng aral.</p><span class="comparison-foot">Diin: pagtuturo, karunungan at paglinang ng puso.</span></div></div>`,
+    notes: 'Ang bahagi A, pahina 122–123, ay nakatuon sa mga sinaunang banal na hari gaya nina Fu Xi, Shen Nong at Xuan Yuan, at mga kasunod na pinuno. Ang bahagi B, pahina 123–124, ay nakatuon naman sa mga gurong may mataas na birtud gaya nina Lao Tze, Confucius at Shakyamuni Buddha. Sa aklat, lahat ay iniuugnay sa Banal na Misyon at pagpapalaganap ng TAO.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-E AT V-F. PAGBABAGO', theme: 'jade', layout: 'conceal',
-    title: 'Mula sa tahanan hanggang sa pagkakubli', lead: 'Mahahalagang pagbabago sa pagpapatuloy ng TAO',
-    notes: 'Inilalarawan ang pagdating ng transmisyon sa karaniwang tahanan pagkatapos ng linya ni Hui Neng. Isinasalaysay rin ang paghinto o pagkakubli ng transmisyon nang halos isang libong taon, kaugnay ng ikawalong patriarka at ng pagsisiwalat ng lihim ng Langit.',
-    keywords: ['Tahanan', 'Pagkakubli', 'Halos 1,000 Taon'],
-    summary: 'Lumaganap ang aral sa pangkaraniwang tahanan, bago ang panahong inilalarawang pagkakubli ng TAO.',
-    body: `<div class="conceal-panels">
-      <div class="conceal-panel home-panel"><span class="conceal-label">E / PAGBABAHAGI</span><div class="line-house" aria-hidden="true"><div></div></div><h3>Pangkaraniwang<br>tahanan</h3><p>Hindi na lamang sa mga templo ang aral.</p></div>
-      <div class="conceal-middle"><span class="transition-dot"></span><span class="transition-line"></span><span class="transition-dot"></span></div>
-      <div class="conceal-panel hidden-panel"><span class="conceal-label">F / PAGKAKUBLI</span><div class="big-duration">≈1,000 <small>TAON</small></div><h3>Panahong nakubli<br>ang TAO</h3><p>Panahon ng pagkakubli sa tradisyon.</p></div>
-    </div>`
+    section: 'V · Pagpapalaganap ng TAO', title: 'Mula India, Bumalik sa Tsina', pages: '124', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">V · C AT D</span><h2>Mula <em>India</em>, muling bumalik sa <em>Tsina</em></h2>
+      <div class="journey-pair"><div class="journey-half"><span class="journey-tag">C · INDIA</span><h3>Paglipat ng TAO</h3><div class="journey-names"><strong>Shakyamuni Buddha</strong><span>↓</span><strong>Arya Maha Kashyapa</strong><span>↓</span><strong>Bodhidharma</strong></div><p>Inilalarawan ng aklat ang paglipat ng linya ng pagpapamana sa India hanggang sa <strong>ika-28 Patriarka</strong>, si Bodhidharma.</p></div><div class="journey-gate">⇢</div><div class="journey-half"><span class="journey-tag">D · TSINA</span><h3>Pagbabalik ng TAO</h3><div class="journey-names"><strong>Bodhidharma</strong><span>↓</span><strong>Mga sumunod na Patriarka</strong><span>↓</span><strong>Hui Neng</strong></div><p>Si Bodhidharma ang mahalagang tulay sa pagbabalik ng TAO sa Tsina hanggang sa <strong>ikaanim na Patriarka</strong> na si Hui Neng.</p></div></div><div class="bottom-message">Buod sa aklat: hindi naputol ang pagpapamana ng TAO; lumipat lamang ito ng lugar at nagpatuloy sa panibagong yugto.</div>`,
+    notes: 'Sa pahina 124, inilalahad ng libro ang paglipat ng TAO sa India at ang muling pagbabalik nito sa Tsina. Idinagdag sa slide ang buod na si Bodhidharma ang tulay sa dalawang yugtong ito at na ang pagpapamana ay nagpatuloy hanggang kay Hui Neng.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-G. PAGPAPATULOY', theme: 'paper', layout: 'revival',
-    title: 'Ipinagpatuloy ang pagpapamana', lead: 'Muling pagpapasulong ng Banal na Misyon',
-    notes: 'Naipagpatuloy ang transmisyon mula sa ika-siyam na patriarka na si Huang De Hui. Kabilang din sina Wang Jue Yi at Liu Qing Xu. Noong 1886, ginamit ang pangalang Yi Guan Dao para sa pagpapalaganap ng TAO.',
-    keywords: ['Huang De Hui', 'Yi Guan Dao', '1886'],
-    summary: 'Muling ipinagpatuloy ang transmisyon; noong 1886, ginamit ang pangalang Yi Guan Dao.',
-    body: `<div class="revival-steps">
-       <div class="revival-step"><span>IKA-09</span><h3>Huang De Hui</h3><p>Muling pagpapatuloy</p></div><span class="revival-arrow">→</span>
-       <div class="revival-step"><span>SUMUNOD NA LINYA</span><h3>Wang Jue Yi</h3><p>Pagpapalawak ng aral</p></div><span class="revival-arrow">→</span>
-       <div class="revival-step"><span>SUMUNOD NA LINYA</span><h3>Liu Qing Xu</h3><p>Pagpapatuloy ng transmisyon</p></div>
-    </div><div class="year-banner"><div>1886</div><p>Ang pangalang <strong>“Yi Guan Dao”</strong> sa pagpapalaganap ng TAO.</p></div>`
+    section: 'V · Pagpapalaganap ng TAO', title: 'Tahanan at Pagkukubli', pages: '125–126', tone: 'mist', type: 'standard',
+    body: `
+      <span class="overline">V · E AT F</span><h2>Pagpapamana sa tahanan at <em>pagkukubli ng TAO</em></h2>
+      <div class="feature-grid two-features"><div class="feature-card"><div class="feature-number">E</div><h3>Sa karaniwang tahanan</h3><p>Pagkatapos kay <strong>Hui Neng</strong>, inilalarawan ang paglaganap ng TAO sa mga karaniwang sambahayan.</p><div class="visual-token">⌂</div></div><div class="feature-card"><div class="feature-number">F</div><h3>Pagkukubli</h3><p>Iniuugnay ng aklat sa panahon ng <strong>ikawalong Patriarka</strong> ang pagkakubli ng TAO nang halos isang libong taon.</p><div class="visual-token">◌</div></div></div>
+      <div class="bottom-message">Naging mahalaga ang pangangalaga sa aral sa kabila ng pagbabago ng panahon.</div>`,
+    notes: 'Batay sa pp. 125–126, ang TAO ay hindi lamang nanatili sa loob ng mga templo o samahang pangmonghe, ngunit inilarawan ding ibinahagi sa loob ng mga pangkaraniwang tahanan. Binabanggit ang ikawalong patriarka, si Luo Wei Qun, at ang pagkakubli o paghinto ng pagpapamana sa mahabang panahon. Ang "halos isang libong taon" ay bahagi ng salaysay ng aklat.'
   },
   {
-    section: 'V · Pagpapalaganap', phase: 'IKALIMANG BAHAGI', tag: 'V-H. MALAWAKANG PAGLAGANAP', theme: 'night', layout: 'expansion',
-    title: 'Lumawak ang pagpapalaganap ng TAO', lead: 'Sa huling bahagi ng linya ng mga patriarka',
-    notes: 'Binabanggit ang ika-17 patriarka na si Lu Zhong Yi, ang ika-18 patriarka na si Gong Chang, at ang Matriyarka na si Zi Xi. Namatay ang Amang Guro noong 1947; ipinagpatuloy ng Inang Guro at iba pang tagapagpalaganap ang gawain, kabilang ang sa Taiwan.',
-    keywords: ['Lu Zhong Yi', '1947', 'Taiwan'],
-    summary: 'Mula sa mga huling patriarka, nagpatuloy at lumawak ang pagpapalaganap ng TAO sa iba pang lugar.',
-    body: `<div class="expansion-layout">
-      <div class="expansion-left"><div class="expansion-small">IKA-17 PATRIARKA</div><h3>Lu Zhong Yi</h3><div class="expansion-rule"></div><div class="expansion-small">IKA-18 PATRIARKA / MATRIYARKA</div><h3>Gong Chang<br><span>at</span> Zi Xi</h3></div>
-      <div class="expansion-right"><div class="expansion-year">1947</div><p>Pagpanaw ng <strong>Amang Guro</strong></p><div class="expansion-path"><span>INANG GURO</span><b>→</b><span>TAIWAN</span><b>→</b><span>IBA PANG BANSA</span></div><p class="expansion-note">Pagpapatuloy ng gawain sa kabila ng pagbabago ng panahon.</p></div>
-    </div>`
+    section: 'V · Pagpapalaganap ng TAO', title: 'Muling Pagpapatuloy at Paglaganap', pages: '126–128', tone: 'night', type: 'standard',
+    body: `
+      <span class="overline">V · G AT H</span><h2>Muling pagpapatuloy at <em>malawakang paglaganap</em></h2>
+      <div class="history-timeline"><div class="history-point"><span class="history-dot"></span><small>MULING PAGPAPAMANA</small><h3>Huang De Hui</h3><p>Sa aklat, siya ang <strong>ika-9 Patriarka</strong> at hudyat ng muling pagpapatuloy ng pagpapamana ng TAO matapos ang mahabang pagkakubli.</p></div><div class="history-point"><span class="history-dot"></span><small>1886</small><h3>Yi Guan Dao</h3><p>Mahalagang banggit sa aklat ang paggamit ng pangalang <strong>Yi Guan Dao</strong> kaugnay nina Wang Jue Yi at Liu Qing Xu.</p></div><div class="history-point"><span class="history-dot"></span><small>1947 AT PAGKATAPOS</small><h3>Pagpapatuloy ng misyon</h3><p>Matapos ang pagpanaw ng Amang Guro, nagpatuloy ang misyon sa pangunguna ng Inang Guro at ng mga tagapagpalaganap sa Taiwan at iba pang lugar.</p></div></div>
+      <div class="bottom-message bottom-message-dark">Buod sa aklat: mula sa muling pagpapamana, naging mas malinaw ang paglawak ng TAO hanggang sa malawakang pagpapalaganap sa iba’t ibang lugar.</div>`,
+    notes: 'Sa pp. 126–128, ipinagpatuloy ang pagpapamana mula kay Huang De Hui. Pinalinaw sa slide ang kahalagahan ng 1886, ang pagbanggit sa Yi Guan Dao, at ng 1947 bilang punto ng pagpapatuloy ng misyon matapos ang pagpanaw ng Amang Guro. Hindi kailangang isa-isahin ang lahat ng pangalan; ituon sa daloy ng muling pagpapatuloy at paglawak.'
   },
   {
-    section: 'VI · Pangwakas', phase: 'IKAANIM NA BAHAGI', tag: 'VI. PANGWAKAS', theme: 'ochre', layout: 'takeaways',
-    title: 'Bakit mahalaga ang Kautusan at Kasaysayan?', lead: 'Tatlong diwa ng Banal na Misyon',
-    notes: 'Ang Kautusan ng Langit at ang kasaysayan ay inilalarawang magkakaugnay: may takdang pagpapamana, may tungkuling mangalaga at tumulong, at may layuning gabayan ang mga nilalang tungo sa espirituwal na pinagmulan.',
-    keywords: ['Kautusan', 'Kasaysayan', 'Pananagutan'],
-    summary: 'Ang Banal na Misyon at pagpapamana ng TAO ay magkakaugnay sa paggabay at paglilingkod.',
-    body: `<div class="takeaway-grid"><div class="takeaway-card"><span>01</span><div class="takeaway-symbol">天</div><h3>Kautusan ng Langit</h3><p>Pinagmulan ng Banal na Misyon.</p></div><div class="takeaway-card"><span>02</span><div class="takeaway-symbol">傳</div><h3>Kasaysayan</h3><p>Pagpapatuloy ng pagpapamana ng TAO.</p></div><div class="takeaway-card"><span>03</span><div class="takeaway-symbol">善</div><h3>Pananagutan</h3><p>Paggabay, paglilingkod, at paggawa ng kabutihan.</p></div></div>`
+    section: 'VI · Pangwakas', title: 'Tatlong Mahalagang Aral', pages: '128–130', tone: 'sand', type: 'standard',
+    body: `
+      <span class="overline">VI · PANGWAKAS</span><h2>Tatlong mahalagang <em>aral ng kabanata</em></h2>
+      <div class="takeaway-grid"><div class="takeaway"><b>01</b><h3>Ang Kautusan ng Langit</h3><p>Pinagmumulan ng Banal na Misyon ayon sa turo ng aklat.</p></div><div class="takeaway"><b>02</b><h3>Ang Kasaysayan ng TAO</h3><p>Pagpapamana ng aral sa magkakaibang panahon at salinlahi.</p></div><div class="takeaway"><b>03</b><h3>Ang Pananagutan ng Tao</h3><p>Isabuhay ang mabuting asal at makatulong sa kapuwa.</p></div></div><div class="bottom-message">Hindi lamang pag-alam sa TAO — mahalaga ring isabuhay ang mga aral nito.</div>`,
+    notes: 'Sa pangwakas ng aklat, binibigyang-diin ang ugnayan ng Kagustuhan ng Langit at ng patuloy na pagpapamana ng TAO. Naroon din ang mga espirituwal na babala at panawagan sa pananagutan. Mas angkop sa presentation na ihatid ang tatlong pangunahing mensahe: Banal na Misyon, kasaysayan ng pagpapatuloy at mabuting gawa.'
   },
   {
-    section: 'VI · Pangwakas', phase: 'PANGHULING MENSAHE', tag: 'VI. PANGWAKAS', theme: 'night', layout: 'closing',
-    title: 'Ang TAO ay isinasabuhay.', lead: 'Pagsasabuhay ng TAO',
-    notes: 'Pangwakas na mensahe: ang pagkilala sa Kautusan ng Langit ay may kasamang praktikal na pananagutan. Ang pagpapalaganap ng mabuting aral ay dapat makita sa buhay, gawain, at pakikitungo sa kapuwa. Maaaring magpasalamat at buksan ang talakayan.',
-    keywords: ['Kabutihan', 'Paglilingkod', 'Pagpapatuloy'],
-    summary: 'Ang aral ng TAO ay isinasabuhay sa kabutihan, pananagutan at pagtulong sa kapuwa.',
-    body: `<div class="closing-content"><div class="closing-sigil" aria-hidden="true">道</div><div class="closing-copy"><span class="closing-topline">SA BAWAT HENERASYON</span><h2>Unawain ang aral.<br><em>Ipagpatuloy ang kabutihan.</em></h2><p>Kautusan ng Langit <span>·</span> Kasaysayan ng TAO <span>·</span> Banal na Misyon</p><div class="closing-thanks">MARAMING SALAMAT <span>✦</span></div></div></div>`
+    section: 'VI · Pangwakas', title: 'Maraming Salamat', pages: '128–131', tone: 'night', type: 'ending',
+    body: `
+      <div class="ending-art" aria-hidden="true"><span class="ending-halo"></span><span class="ending-cn">道</span></div>
+      <div class="ending-content"><span class="overline">VI · PANGWAKAS</span><h2>Ang TAO ay <em>isinasabuhay.</em></h2><p>Sa pag-unawa sa Kautusan ng Langit at kasaysayan ng pagpapalaganap ng TAO, mahalagang maisagawa ang kabutihan at pananagutan sa kapuwa.</p><div class="ending-line"></div><h3>Maraming salamat!</h3><span class="ending-foot">Mga tanong at talakayan</span></div>`,
+    notes: 'Maaaring tapusin sa ganitong diwa: ang kasaysayan ng TAO ay ipinapakita sa aklat bilang isang pananagutang nagpapatuloy. Ang pagpapahalaga sa aral ay makikita sa pang-araw-araw na mabuting gawain. Ito ay buod at sariling pananalita, hindi tuwirang sipi ng teksto. Salamat at magbukas ng pagkakataon para sa mga tanong.'
   }
 ];

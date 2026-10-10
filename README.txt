@@ -1,38 +1,44 @@
-ANG KAUTUSAN NG LANGIT AT ANG KASAYSAYAN SA PAGPAPALAGANAP NG "TAO"
-15-slide OFFLINE WEBSITE PRESENTATION
+TAO — 15-SLIDE WEB PRESENTATION
+================================
 
-PAANO BUKSAN
-1. I-extract ang ZIP.
-2. Buksan ang index.html gamit ang Chrome, Edge, Firefox, o ibang modernong browser.
-3. Hindi kailangan ng internet, server, Node.js, o anumang installation.
+Batay sa Kabanata 7, pahina 115–131 ng iyong ibinigay na aklat.
 
-MGA CONTROL
-- Right arrow / Space / Page Down: susunod na slide
-- Left arrow / Page Up: nakaraang slide
-- Home / End: unang slide / huling slide
-- F: full-screen presentation
-- O: listahan ng 15 slide para direktang pumili ng slide
-- P: browser Print / Save as PDF (15 landscape pages)
-- Sa mobile: swipe pakaliwa/pakanan; puwede ring gamitin ang navigation arrows.
+PAANO GAMITIN
+1. I-extract ang ZIP file sa isang folder.
+2. I-double-click ang index.html upang buksan sa Chrome, Edge, Firefox o Safari.
+3. Hindi kailangan ng internet. Panatilihin ang index.html, styles.css,
+   slides.js at app.js sa iisang folder.
 
-PAG-EDIT NG NILALAMAN
-- slides.js — ang 15 slide, mga keywords, buod, at speaker notes
-- styles.css — theme, typography, layout, responsive design
-- app.js — slide navigation, full screen, overview at shortcuts
-- index.html — pangunahing website
+KONTROLS
+→ / ↓ / Space / PageDown     Susunod na slide
+← / ↑ / PageUp              Nakaraang slide
+Home / End                 Una / huling slide
+O                          Mga slide (overview)
+N                          Speaker notes / gabay sa pagpapaliwanag
+F                          Fullscreen
+P                          I-print / i-save bilang PDF
+Esc                        Isara ang overview o speaker notes
+Swipe                      Lipat slide sa touch screen
 
-NILALAMAN NG 15 SLIDES
-- Panimula
-- Kautusan ng Langit
-- Kasaysayan ng TAO
-- Pagitan at mga Yugto
-- Pagpapalaganap ng TAO
-- Pangwakas
+SPEAKER NOTES
+May mga tala ng tagapagsalita ang bawat slide. I-click ang Notes o N.
 
-Lahat ng slides ay may MGA KEYWORD at maikling BUOD.
-Ang Gabay sa Pagsasalita ay makikita mismo sa ibabang bahagi ng bawat content slide.
+SAVE AS PDF
+Pindutin ang PDF button o P. Sa print dialog, piliin ang
+"Save as PDF" at, kung kailangan, i-on ang "Background graphics".
+Nakahanda ang buong 15 slides para sa pag-print sa 16:9 na format.
 
-PAALALA
-Sa browser Print → Save as PDF, i-enable ang Background graphics /
-Print backgrounds. Ang print CSS ay gumagamit ng 16:9 widescreen page size.
-Para sa pinakamahusay na resulta, buksan sa 16:9 screen sa full screen (F).
+SAKNLAW NG NILALAMAN
+• I. Panimula — Slide 1–2
+• II. Ano ang Kautusan ng Langit? — Slide 3–4
+• III. Kasaysayan sa Pagpapalaganap ng TAO — Slide 5–6
+• IV. Pagitan sa Kasaysayan — Slide 7–9
+• V. Kautusan at Kasaysayan sa Pagpapalaganap — Slide 10–13
+• VI. Pangwakas — Slide 14–15
+
+PAALALA SA SANGGUNIAN
+Ang materyal ay maikling paraphrase/buod, hindi sipi ng buong aklat.
+Ang mga aral tungkol sa Kautusan ng Langit, mga Patriarka at yugto
+ay inilalahad ayon sa tradisyong relihiyoso ng ibinigay na aklat.
+
+Maaaring baguhin ang teksto sa slides.js at ang disenyo sa styles.css.
